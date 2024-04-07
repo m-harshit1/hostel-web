@@ -6,7 +6,7 @@
 .page{
     height: 100vh;
     width: 100vw;
-    background-image: url('collage.jpg');
+    background-image: url('college.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,4 +15,55 @@
     background: rgba(0, 0, 0, 0.53);
     height: 100vh;
     width: 100vw;
+}
+.title{
+    height: 130px;
+    width: 1647px;
+    padding-top: 21px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.college_logo{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.college_name_box{
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+
+}
+.college_name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#para2{
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+.hostel_portal{
+
+position: absolute;
+width: 888px;
+height: 122px;
+left: 420px;
+top: 316px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 88px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #A80000;
 }
