@@ -1,5 +1,18 @@
 *{
-    background-color: white;
-    p
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('collage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.image_layer{
+    background: rgba(0, 0, 0, 0.53);
+    height: 100vh;
+    width: 100vw;
+}
