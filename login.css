@@ -12,13 +12,13 @@
     background-repeat: no-repeat;
 }
 .image_layer{
-    background: rgba(0, 0, 0, 0.53);
+    background: rgba(0, 0, 0, 0.562);
     height: 100vh;
     width: 100vw;
 }
 .title{
     height: 130px;
-    width: 1647px;
+    width: 1447px;
     padding-top: 21px;
     padding-left: 10px;
     display: flex;
@@ -31,7 +31,7 @@
     margin-bottom: 20px;
 }
 .college_name_box{
-    width: 1350px;
+    width: 1300px;
     display: flex;
     flex-direction: column;
     align-items:center ;
@@ -40,7 +40,7 @@
 }
 .college_name{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 48px;
 }
 #para2{
     width: 100%;
@@ -51,19 +51,94 @@
 .hostel_portal{
 
 position: absolute;
-width: 888px;
+width: 600px;
 height: 122px;
-left: 420px;
-top: 316px;
-
-font-family: 'Merriweather Sans';
+left: 560px;
+top: 180px;
+padding-left: 30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 70px;
+font-size: 55px;
 line-height: 88px;
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #A80000;
+}
+
+.log_in_box{
+position: absolute;
+width: 964.83px;
+height: 482px;
+left: 300px;
+top: 360px;
+
+background: rgba(0, 0, 0, 0.49);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#login{
+position: absolute;
+width: 360px;
+height: 120px;
+left: 300px;
+top: 40px;
+padding-left: 50px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 158px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #dfc2c2;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login-add-std-box{
+    margin-top: 70px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.administration_box{
+
+width: 230px;
+height: 100px;
+background: #6B0000;
+border-radius: 45px;
+margin-right:130px ;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+font-size: 22px;
+
+}
+.student_box{
+    width: 230px;
+    height: 100px;
+    background: #6B0000;
+    border-radius: 45px;
+    margin-left:130px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+a{
+    text-decoration: none;
 }
