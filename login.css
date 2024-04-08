@@ -64,7 +64,8 @@ align-items: center;
 justify-content: center;
 text-align: center;
 
-color: #A80000;
+color: white;
+text-shadow: 1px 1px 10px black;
 }
 
 .log_in_box{
