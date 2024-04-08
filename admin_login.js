@@ -1,7 +1,7 @@
 const texts = [
     "Welcome to Admin Login Portal.",
     "Please log in with your creditials.",
-    "If creditials are wrong, ",
+    "For further queries",
     "Please contact the Hostel  Office.",
     "Thank you!"
   ];
