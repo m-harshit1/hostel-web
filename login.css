@@ -17,18 +17,17 @@
     width: 100vw;
 }
 .title{
-    height: 130px;
+    height: 110px;
     width: 1447px;
-    padding-top: 21px;
+    padding-top: 15px;
     padding-left: 10px;
     display: flex;
     flex-direction: row;
 
 }
 .college_logo{
-    height: 120px;
-    width: 120px;
-    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
 }
 .college_name_box{
     width: 1300px;
