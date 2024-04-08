@@ -34,7 +34,7 @@
 
 width: 316px;
 height: 275px;
-margin-top: 60%;
+margin-top: 50%;
 margin-left:25%;
 display: flex;
 flex-direction: column;
@@ -47,7 +47,7 @@ gap: 50px;
 font-family:'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
+font-size: 50px;
 line-height: 66px;
 display: flex;
 align-items: center;
@@ -66,10 +66,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 .login_input{
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     width:100%;
 }
