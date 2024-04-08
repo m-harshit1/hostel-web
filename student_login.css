@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .page{
-    background-color: black;
+    background-color:#060047;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@
 .blue_region{
     height: 100vh;
     width: 60vw;
-    background-color:#060047;
+    background-color:black;
 }
 .college_logo{
     height: 90px;
