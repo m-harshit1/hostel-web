@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title_box{
+    width: 100vw;
+    height: 10vh;
+    background-color:rgba(217, 217, 217, 1);
+    display: flex;
+}
+.college_logo{
+    height: 100%;
+}
+.college_name_box{
+    display: flex;
+    justify-content: center;
+}
+.college_name{
+    font-size: 48px;
+}
