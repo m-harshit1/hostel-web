@@ -5,17 +5,24 @@
 
 .title_box{
     width: 100vw;
-    height: 10vh;
-    background-color:rgba(217, 217, 217, 1);
+    height: 13vh;
+    background-color:#D8E2DC;
     display: flex;
+    gap: 4%;
 }
 .college_logo{
     height: 100%;
 }
 .college_name_box{
+    width: 100vw;
     display: flex;
     justify-content: center;
 }
 .college_name{
     font-size: 48px;
+    text-align: center;
+    width: 80%;
+}
+.navbar_box{
+    
 }
