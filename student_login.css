@@ -25,7 +25,7 @@
 .blue_region{
     height: 100vh;
     width:40vw;
-    background-color:#060047;
+    background-color:#F9F4F5;
 }
 .login_box{ 
     width: 316px;
@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFEAEA;
+    color: #473939;
     text-shadow: 1px 1px 10px black;
 }
 .login_form_box{
@@ -80,7 +80,7 @@
     font-size: 45px; 
     left: 0;
     top: 300px; 
-    color: white;
+    color: #473939;
 }
 
 .login_button {
