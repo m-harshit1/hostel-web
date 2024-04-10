@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+a{
+    text-decoration: none;
+}
 .page{
     background-color:#060047;
     width: 100vw;
@@ -13,7 +16,7 @@
 .black_region{
     height: 100vh;
     width: 60vw;
-    background-color:black;
+    background-color:#D8E2DC;
 }
 .college_logo{
     height: 90px;
@@ -25,7 +28,7 @@
 .blue_region{
     height: 100vh;
     width:40vw;
-    background-color:#060047;
+    background-color:#F9F4F5;
 }
 .login_box{ 
     width: 316px;
@@ -46,7 +49,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFEAEA;
+    color: #473939;
     text-shadow: 1px 1px 10px black;
 }
 .login_form_box{
@@ -80,7 +83,7 @@
     font-size: 45px; 
     left: 0;
     top: 300px; 
-    color: white;
+    color: #473939;
 }
 
 .login_button {
@@ -98,4 +101,7 @@
 
 .login_button:hover {
     background-color: #FF6347; 
+}
+.forgot_password{
+    color:  #1C7293;
 }
