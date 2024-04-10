@@ -16,7 +16,7 @@ body {
   }
   
   .forgot-password-form {
-    height: 300px;
+    height: 255px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -25,7 +25,7 @@ body {
   
   .forgot-password-form h2 {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -43,6 +43,7 @@ body {
   
   label {
     display: block;
+    margin-top: 20px;
     margin-bottom: 5px;
   }
   
@@ -52,10 +53,11 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   button {
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
     padding: 15px;
     background-color: rgb(48, 178, 48);
@@ -68,5 +70,25 @@ body {
   
   button:hover {
     background-color: rgb(20, 107, 20);
+  }
+  
+  .back_to_login {
+    display: block;
+    margin-top: 15px;
+    padding-right: 2px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+  }
+  
+  .back_to_login:hover {
+    color: #555; 
+  }
+  
+  .back_to_login:before {
+    content: "\2190"; 
+    margin-right: 5px;
   }
   
