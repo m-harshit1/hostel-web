@@ -2,7 +2,9 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-
+a{
+    text-decoration: none;
+}
 .page {
     background-color: #6B0000;
     width: 100vw;
@@ -95,7 +97,7 @@
 .container {
     text-align: left;
     position: absolute;
-    font-size: 45px;
+    font-size: 3vw;
     left: 0;
     top: 300px;
     color: #473939;
@@ -117,4 +119,7 @@
 
 .login_button:hover {
     background-color: #282dd3;
+}
+.forgot_password{
+    color:  #1C7293;
 }
