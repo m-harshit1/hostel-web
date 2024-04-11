@@ -76,14 +76,13 @@ a{
 }
 
 hr{
-    width:97vw;
     height: .3px;
     margin-left: 1.5vw;
 }
 
 .content_box{
     height:100vh;
-    width: 70vw;
+    width: 68vw;
     position: absolute;
     top:33vh;
     left: 10vw;
