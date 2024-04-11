@@ -54,9 +54,9 @@ a{
     display: none;
     position: absolute;
     min-height: 15vh;
-    z-index: 1px;
+    z-index: 2px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color:#D8E2DC;
+    background-color:#cbded2;
     border-radius: 10px;
 }
 #forms:hover .forms_list{
@@ -83,12 +83,10 @@ hr{
 
 .content_box{
     height:100vh;
-    width: 60vw;
-    position: relative;
-    top:10vh;
+    width: 70vw;
+    position: absolute;
+    top:33vh;
     left: 10vw;
-
-
 }
 .content_box_layer{
     height: 100%;
@@ -98,6 +96,9 @@ hr{
 }
 
 .compose_box{
+    position: absolute;
+    top: 21vh;
+    right: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
