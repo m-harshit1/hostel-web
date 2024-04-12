@@ -236,8 +236,8 @@ header{
 }
 .Send_button{
     background-color: #b1a9ddee;
-    position: relative;
-    top: 1.5%;
+    position: absolute;
+    top: 91.5%;
     left: 87%;
     height: 4vh;
     width: 4vw;
