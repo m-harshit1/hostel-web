@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title_box{
+    width: 100vw;
+    height: 13vh;
+    background-color:#D8E2DC;
+    display: flex;
+    gap: 4%;
+}
+.college_logo{
+    height: 100%;
+}
+.college_name_box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.college_name{
+    font-size:5.5vh ;
+    text-align: center;
+    width: 80%;
+}
+.navbar_box{
+    width: 100vw;
+    height:6vh;
+;
+}
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding-top:1vh;
+    gap: 4vw;
+}
+.items{
+    padding-top: 1.5vh;
+    text-align: center;
+    font-size: 22px;
+}
+
+#home{
+    padding-left: 2.5vw;
+}
+
+.forms_list{
+    display: none;
+    position: absolute;
+    min-height: 15vh;
+    z-index: 1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color:#D8E2DC;
+    border-radius: 10px;
+}
+#forms:hover .forms_list{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 1.5vh;
+}
+#forms:hover #gate_pass{
+    margin-top: 10%;
+}
+.hover_pass:hover{
+    background-color:#e5fdef ;
+    width:100%;
+    text-align:left;
+    border-radius: 5px;
+}
+
+
+
+hr{
+    width:97vw;
+    height: .3px;
+    margin-left: 1.5vw;
+}
