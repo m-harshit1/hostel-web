@@ -48,8 +48,32 @@
     <div class="compose_complain_box">
         <div class="head_ccb">
             <div class="head_ccb_text"> New complaint</div>
+            <img src="css/src/cross.png" alt="close" class="cross">
         </div>
+        <div class="detail_box">
+            <div class="detail_box_line1">
+                <div class="name_box">
+                    <input type="text" class="name_text" placeholder="Name">
+                </div>
+                <div class="room_no_box">
+                    <input type="number" class="room_no" placeholder="Room Number" >
+                </div>
+            </div> 
+        <hr class="db1_bottom_hr" color="#d7d7d7">
+        <div class="detail_box_line2">
+            <div class="rollno_box">
+                <input type="text" class="rollno_text" placeholder="Roll Number">
+            </div>
+            <select name="Hostel" class="hostel_name">
+                <option value="select">Select...</option>
+                <option value="kalam hostel">Kalam Hostel</option>
+                <option value="MVHR">MVHR</option>
+                <option value="kalpana hostel">Kalpana Hostel</option>
+                <option value="srkh">SRKH</option>
+            </select>
+        </div> 
+        <hr class="db2_bottom_hr" color="#d7d7d7">
     </div>
-    
+    <textarea name="complain_text" id="complaint_text_area" placeholder="...."></textarea>
 </body>
 </html>

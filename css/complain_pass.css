@@ -35,8 +35,7 @@ header{
 .navbar_box{
     width: 100vw;
     height:6vh;
-    background-color: white
-;
+    background-color: white;
 }
 .nav_items{
     display: flex;
@@ -80,7 +79,7 @@ header{
     border-radius: 5px;
 }
 
-hr{
+.bottom_nav_line{
     height: .3px;
     margin-left: 1.5vw;
     width:97vw;
@@ -115,13 +114,14 @@ hr{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
     position: fixed;
+    min-width: 105px;
 }
 .compose_box:hover{
     box-shadow: 1px 1px 2px #62579dee;
 }
 
 .compose_complain_box{
-    display: none;
+    display:none;
     width:40vw;
     height: 65vh;
     z-index: 3;
@@ -132,6 +132,7 @@ hr{
     border-radius: 15px;
     position: fixed;
     box-shadow: 1px 1px 5px #000000ee;
+    min-width: 390px;
 
 }
 .head_ccb{
@@ -147,4 +148,93 @@ hr{
     padding-left: 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+}
+.cross{
+    position: absolute;
+    left: 93%;
+    height:5%;
+}
+
+
+
+
+
+.detail_box{
+    width: 100%;
+    height:13%;
+}
+.detail_box_line1{
+    height: 50%;
+    display: flex;
+    gap:1%;
+
+}
+.name_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+    width:60%;
+}
+
+.name_text{
+    border: none;
+    font-size: 2vh;
+    background-color: snow;
+    width:100%;
+}
+
+.room_no_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+}
+.room_no{
+    font-size: 1.8vh;
+    border: none;
+    background-color: snow;
+    appearance: text;
+}
+
+.db1_bottom_hr{
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+
+
+.detail_box_line2{
+    height: 50%;
+    display: flex;
+    gap:27%;
+
+}
+.rollno_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+}
+
+.rollno_text{
+    border: none;
+    font-size: 2vh;
+    background-color: snow;
+    width:110%
+}
+
+.hostel_name{
+    height: 90%;
+    border: none;
+    font-size: 2vh;
+    margin-top:.5%;
+    background-color: snow;
+}
+.db2_bottom_hr{
+    width: 97%;
+    margin-left: 1.5%;
+}
+#complaint_text_area{
+    height:73%;
+    width: 98%;
+    margin-left:.5%;
+    margin-top: 2%;
+    border: none;
+    font-size: 2vh;
+    background-color:#D8E2DC ;
 }
