@@ -54,7 +54,7 @@ a{
     display: none;
     position: absolute;
     min-height: 15vh;
-    z-index: 1px;
+    z-index: 3;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color:#D8E2DC;
     border-radius: 10px;
@@ -82,3 +82,46 @@ hr{
     height: .3px;
     margin-left: 1.5vw;
 }
+
+.holiday_form_box{
+    width:80vw;
+    height: 75vh;
+    background-color:#D8E2DC ;
+    position: absolute;
+    left: 10vw;
+    top: 21vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #000000ee;
+    min-width: 390px;
+}
+.data_box{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 98%;
+    width: 98%;
+}
+.lines{
+    height: 9%;
+    width: 100%;
+}
+.line_data{
+    display: flex;
+    width: 100%;
+}
+.data_section{
+    display: flex;
+    width: 100%;
+}
+.data_box_tag{
+    font-size: 20px;
+
+}
+.data_box_input{
+    border: none;
+    background-color:#D8E2DC ;
+    font-size: 20px;
+    width: 70%;
+}
+
