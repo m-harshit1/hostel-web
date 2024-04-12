@@ -100,7 +100,7 @@ header{
     border-radius:10px;
 }
 
-.compose_box{
+.compose_box {
     position: absolute;
     top: 21vh;
     right: 3vw;
@@ -111,14 +111,16 @@ header{
     height: 8vh;
     background-color: #b1a9ddee;
     border-radius: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
     position: fixed;
     min-width: 105px;
-}
-.compose_box:hover{
+    border: none;
+  }
+  
+  .compose_box:hover {
     box-shadow: 1px 1px 2px #62579dee;
-}
+  }
 
 .compose_complain_box{
     display: none;
@@ -154,10 +156,6 @@ header{
     left: 93%;
     height:5%;
 }
-
-
-
-
 
 .detail_box{
     width: 100%;
@@ -197,8 +195,6 @@ header{
     width: 97%;
     margin-left: 1.5%;
 }
-
-
 
 .detail_box_line2{
     height: 50%;

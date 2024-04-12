@@ -43,13 +43,12 @@
         </div>
     </div>
     <div class="compose_box">
-        Compose
+        <button class="compose_box" onclick="toggleComplainBox()">Compose</button>
     </div>
     <div class="compose_complain_box">
         <div class="head_ccb">
             <div class="head_ccb_text"> New complaint</div>
-            <img src="css/src/cross.png" alt="close" class="cross">
-        </div>
+            <img src="css/src/cross.png" alt="close" class="cross" onclick="toggleComplainBox()">        </div>
         <div class="detail_box">
             <div class="detail_box_line1">
                 <div class="name_box">
@@ -76,6 +75,6 @@
     </div>
     <textarea name="complain_text" id="complaint_text_area" placeholder="...."></textarea>
     <button class="Send_button">Send</button>
-    <style src="js/complain.js"></style>
 </body>
+<script src="js/complain.js"></script>
 </html>
