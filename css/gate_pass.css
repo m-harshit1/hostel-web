@@ -1,0 +1,166 @@
+/* CSS */
+
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+}
+
+.title_box {
+    width: 100vw;
+    height: 13vh;
+    background-color: #D8E2DC;
+    display: flex;
+    gap: 4%;
+}
+
+.college_logo {
+    height: 13vh;
+}
+
+.college_name_box {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.college_name {
+    font-size: 5.5vh;
+    text-align: center;
+    width: 80%;
+    min-width: 800px;
+}
+
+.navbar_box {
+    width: 100vw;
+    height: 6vh;
+    background-color: white;
+}
+
+.nav_items {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding-top: 1vh;
+    gap: 4vw;
+}
+
+.items {
+    padding-top: 1.5vh;
+    text-align: center;
+    font-size: 22px;
+}
+
+#home {
+    padding-left: 2.5vw;
+}
+
+.forms_list {
+    display: none;
+    position: absolute;
+    min-height: 15vh;
+    z-index: 2px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #cbded2;
+    border-radius: 10px;
+}
+
+#forms:hover .forms_list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vh;
+}
+
+#forms:hover #gate_pass {
+    margin-top: 10%;
+}
+
+.hover_pass:hover {
+    background-color: #e5fdef;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.bottom_nav_line {
+    height: .3px;
+    margin-left: 1.5vw;
+    width: 97vw;
+}
+
+.gate_pass_box {
+    background-color: #F0F5F5;
+    position: absolute;
+    height: auto;
+    width: 80vw;
+    top: 25vh;
+    right: 10vw;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form_name {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.pass_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name,
+.hostel_Name,
+.roll_no,
+.room_no,
+.purpose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
