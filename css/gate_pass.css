@@ -1,3 +1,5 @@
+/* CSS */
+
 * {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -89,102 +91,76 @@ header {
     border-radius: 5px;
 }
 
-
 .bottom_nav_line {
     height: .3px;
     margin-left: 1.5vw;
     width: 97vw;
 }
 
-
 .gate_pass_box {
-    background-color: #cbded2;
+    background-color: #F0F5F5;
     position: absolute;
-    height: 70vh;
+    height: auto;
     width: 80vw;
-
     top: 25vh;
-    /* adjust as needed */
     right: 10vw;
-    /* adjust as needed */
-    border: 2px solid black;
-    min-width: 613px;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form_name {
-    font-size: 11vh;
-    display: flex;
-    height: 100%;
-    width: 50%;
-    align-items: center;
-    padding-left: 2%;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .pass_input {
-    height: 55vh;
-    width: 45vw;
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 4vh;
-    right: 4vw;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
-.name {
+.name,
+.hostel_Name,
+.roll_no,
+.room_no,
+.purpose {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#name {
-    margin-left: 2px;
-    width: 41vw;
-    height: 2vh;
+label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    white-space: nowrap;
 }
 
-.hostel_Name {
-    display: flex;
-    flex-direction: row;
-}
-
-#hostel_Name {
-
-    width: 38vw;
-    height: 2vh;
-}
-
-.roll_no {
-    display: flex;
-    flex-direction: row;
-}
-
-#roll_no {
-
-    width: 40vw;
-    height: 2vh;
-}
-
-.room_no {
-    display: flex;
-    flex-direction: row;
-}
-
-#room_no {
-
-    width: 39vw;
-    height: 2vh;
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .button {
-    font-size: 3ch;
-    height: 5vh;
-    width: 6vw;
-    border-radius: 12px;
-    background-color: #A3D3F7;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 23vw;
-    top: 62vh;
+}
+
+.button:hover {
+    background-color: #2980b9;
 }
