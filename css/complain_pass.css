@@ -9,6 +9,7 @@ a{
 }
 header{
     position: fixed;
+    z-index: 2;
 }
 
 .title_box{

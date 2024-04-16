@@ -7,6 +7,10 @@ a{
     text-decoration: none;
     color: black;
 }
+header{
+    position: fixed;
+    z-index: 2;
+}
 
 .title_box{
     width: 100vw;
@@ -16,10 +20,10 @@ a{
     gap: 4%;
 }
 .college_logo{
-    height: 100%;
+    height: 13vh;
 }
 .college_name_box{
-    width: 100vw;
+    width:100vw;
     display: flex;
     justify-content: center;
 }
@@ -27,11 +31,12 @@ a{
     font-size:5.5vh ;
     text-align: center;
     width: 80%;
+    min-width:800px;
 }
 .navbar_box{
     width: 100vw;
     height:6vh;
-;
+    background-color: white;
 }
 .nav_items{
     display: flex;
@@ -54,9 +59,9 @@ a{
     display: none;
     position: absolute;
     min-height: 15vh;
-    z-index: 3;
+    z-index: 5;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color:#D8E2DC;
+    background-color:#cbded2;
     border-radius: 10px;
 }
 #forms:hover .forms_list{
@@ -75,14 +80,11 @@ a{
     border-radius: 5px;
 }
 
-
-
-hr{
-    width:97vw;
+.bottom_nav_line{
     height: .3px;
     margin-left: 1.5vw;
+    width:97vw;
 }
-
 .holiday_form_box{
     display: flex;
     flex-direction: column;
