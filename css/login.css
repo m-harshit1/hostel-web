@@ -46,12 +46,6 @@
     justify-content: center;
 }
 .hostel_portal{
-
-position: relative;
-width: 40vw;
-height: 10vh;
-left: 30vw;
-top: 25vh;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -66,12 +60,6 @@ text-shadow: 1px 1px 10px black;
 }
 
 .log_in_box{
-position: relative;
-width: 60vw;
-height: 50vh;
-left: 21vw;
-top: 38vh;
-
 background: rgba(0, 0, 0, 0.49);
 display: flex;
 flex-direction: column;
@@ -163,3 +151,67 @@ a{
     /* 1s duration, ease-out timing, 3s delay, and forwards to retain final state */
 }
 
+@media (max-width: 750px) {
+    /* Adjust the login box */
+    .log_in_box {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.6); /* Slightly darker background for smaller screens */
+    }
+
+    /* Adjust the title */
+    .title {
+        flex-direction: column; /* Stack the elements vertically */
+        text-align: center; /* Center-align content */
+        height: auto; /* Adjust height */
+    }
+
+    .college_logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .college_name {
+        font-size: 32px; /* Smaller font for smaller screens */
+        margin-top: 10px;
+    }
+
+    /* Adjust the portal text */
+    .hostel_portal {
+        font-size: 40px; /* Smaller font size */
+        padding: 10px; /* Add some padding */
+    }
+
+    /* Buttons */
+    .administration_box, .student_box {
+        width: 180px; /* Smaller buttons */
+        height: 80px;
+        font-size: 18px; /* Smaller font */
+        margin: 10px; /* Adjust spacing */
+    }
+
+    /* Hide or adjust large elements for smaller screens */
+    .page {
+        padding: 10px; /* Add padding for smaller viewports */
+    }
+    .log_in_box{
+        flex-direction: column;
+        gap:10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .login-add-std-box{
+        flex-direction: column;
+        gap:10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #login{
+        font-size: 32px;
+    }
+    /* Adjust animations for smaller screens */
+    .animate-fade-in {
+        animation: fade-in 2s ease-out 4s forwards; /* Faster animation */
+    }
+}
