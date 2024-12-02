@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="css/admin_login.css">
+</head>
+<body>
+    <div class="page">
+        <div class="black_region">
+            <img src="css/src/png college logo.png" alt="college logo" class="college_logo">
+        </div>
+        <div class="red_region">
+            <div class="login_box">
+                <div class="login_text">
+                    Log In
+                </div>
+                <div class="login_form_box">
+                    <form action="signin.php" class="login_form">
+                        <input type="email" name="" id="email" class="login_input"
+                        placeholder="E-mail address">
+                        <input type="password" name="" id="password" class="login_input" placeholder="Password">
+                    </form>
+                </div>
+                <div class="container">
+                    <div class="typing-animation" id="typing-text"></div>
+                </div>
+                <button class="login_button" onclick="login()">Login</button>
+                <a class="forgot_password" href="forgot_pass.html">Forgot Password ?</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/admin_login.js"></script>
+</body>
+</html>
