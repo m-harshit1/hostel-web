@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: fixed;
+    z-index: 2;
+}
+
+.title_box{
+    width: 100vw;
+    height: 13vh;
+    background-color:#D8E2DC;
+    display: flex;
+    gap: 4%;
+}
+.college_logo{
+    height: 13vh;
+}
+.college_name_box{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+.college_name{
+    font-size:5.5vh ;
+    text-align: center;
+    width: 80%;
+    min-width:800px;
+}
+.navbar_box{
+    width: 100vw;
+    height:6vh;
+    background-color: white;
+}
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding-top:1vh;
+    gap: 4vw;
+}
+.items{
+    padding-top: 1.5vh;
+    text-align: center;
+    font-size: 22px;
+}
+
+#home{
+    padding-left: 2.5vw;
+}
+
+.forms_list{
+    display: none;
+    position: absolute;
+    min-height: 15vh;
+    z-index: 2px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color:#cbded2;
+    border-radius: 10px;
+}
+#forms:hover .forms_list{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 1.5vh;
+}
+#forms:hover #gate_pass{
+    margin-top: 10%;
+}
+.hover_pass:hover{
+    background-color:#e5fdef ;
+    width:100%;
+    text-align:left;
+    border-radius: 5px;
+}
+
+.bottom_nav_line{
+    height: .3px;
+    margin-left: 1.5vw;
+    width:97vw;
+}
+
+.content_box{
+    height:100vh;
+    width: 68vw;
+    position: absolute;
+    top:33vh;
+    left: 10vw;
+    z-index: -5;
+}
+.content_box_layer{
+    height: 100%;
+    width: 100%;
+    background-color:#aad7bd73;
+    border-radius:10px;
+}
+
+.compose_box {
+    position: absolute;
+    top: 21vh;
+    right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11vw;
+    height: 8vh;
+    background-color: #b1a9ddee;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    position: fixed;
+    min-width: 105px;
+    border: none;
+  }
+  
+  .compose_box:hover {
+    box-shadow: 1px 1px 2px #62579dee;
+  }
+
+.compose_complain_box{
+    display: none;
+    width:40vw;
+    height: 65vh;
+    z-index: 3;
+    background-color: snow;
+    position: absolute;
+    right:15vw;
+    top: 21vh;
+    border-radius: 15px;
+    position: fixed;
+    box-shadow: 1px 1px 5px #000000ee;
+    min-width: 390px;
+
+}
+.head_ccb{
+    width: 100%;
+    height: 10%;
+    background-color:#D8E2DC;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+
+}
+.head_ccb_text{
+    padding-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.cross{
+    position: absolute;
+    left: 93%;
+    height:5%;
+}
+
+.detail_box{
+    width: 100%;
+    height:13%;
+}
+.detail_box_line1{
+    height: 50%;
+    display: flex;
+    gap:1%;
+
+}
+.name_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+    width:60%;
+}
+
+.name_text{
+    border: none;
+    font-size: 2vh;
+    background-color: snow;
+    width:100%;
+}
+
+.room_no_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+}
+.room_no{
+    font-size: 1.8vh;
+    border: none;
+    background-color: snow;
+    appearance: text;
+}
+
+.db1_bottom_hr{
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+.detail_box_line2{
+    height: 50%;
+    display: flex;
+    gap:27%;
+
+}
+.rollno_box{
+    padding-top: 10px;
+    margin-left:1.5%;
+}
+
+.rollno_text{
+    border: none;
+    font-size: 2vh;
+    background-color: snow;
+    width:110%
+}
+
+.hostel_name{
+    height: 90%;
+    border: none;
+    font-size: 2vh;
+    margin-top:.5%;
+    background-color: snow;
+}
+.db2_bottom_hr{
+    width: 97%;
+    margin-left: 1.5%;
+}
+#complaint_text_area{
+    height: 65%;
+    width: 98%;
+    margin-left:.5%;
+    margin-top: 2%;
+    border: none;
+    font-size: 2vh;
+    background-color:#D8E2DC ;
+}
+.Send_button{
+    background-color: #b1a9ddee;
+    position: absolute;
+    top: 91.5%;
+    left: 87%;
+    height: 4vh;
+    width: 4vw;
+    border-radius: 10px;
+    min-width: 36px;
+}
