@@ -33,4 +33,8 @@ window.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error("No elements with the class 'logo' found.");
     }
+
+    setTimeout(() => {
+        intro[0].style.top = '-100vh';
+    }, 2300);
 });
