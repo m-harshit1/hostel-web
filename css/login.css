@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0px;
-    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -13,6 +12,9 @@
     background-size: cover;
 }
 
+.container{
+    justify-content: space-between;
+}
 
 .image_layer{
     background: rgba(0, 0, 0, 0.56);
@@ -27,7 +29,7 @@
     flex-direction: row;
     padding-left: 1%;
     padding-top: 1%;
-
+    background-color: #D3D3D3;
 }
 .college_logo{
     height: 100px;
@@ -36,8 +38,9 @@
 
 .college_name{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
     justify-self: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
 }
 #para2{
     width: 100%;
@@ -46,43 +49,50 @@
     justify-content: center;
 }
 .hostel_portal{
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 55px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-color: white;
-text-shadow: 1px 1px 10px black;
+    color: white;
+    text-shadow: 1px 1px 10px black;
 }
 
 .log_in_box{
-background: rgba(0, 0, 0, 0.49);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    background: rgba(0, 0, 0, 0.49);
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    border-radius: 2.75rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
 }
 
 #login{
-width: 50%;
-height: 15%;
-padding-bottom: 9%;
+    width: 50%;
+    height: 15%;
+    padding-bottom: 9%;
 
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 65px;
-text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    text-align: center;
 
-color: #dfc2c2;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .login-add-std-box{
-    width: 100%;
+    width: 50%;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -151,7 +161,40 @@ a{
     /* 1s duration, ease-out timing, 3s delay, and forwards to retain final state */
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1230px) {
+    .administration_box {
+        width: 200px;
+        height: 100px;
+        background: #6B0000;
+        border-radius: 45px;
+        margin-right: 60px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        font-size: 20px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .student_box {
+        width: 200px;
+        height: 100px;
+        background: #6B0000;
+        border-radius: 45px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+}
+@media (max-width: 1019px) {
     /* Adjust the login box */
     .log_in_box {
         width: 90%;
@@ -191,10 +234,6 @@ a{
         margin: 10px; /* Adjust spacing */
     }
 
-    /* Hide or adjust large elements for smaller screens */
-    .page {
-        padding: 10px; /* Add padding for smaller viewports */
-    }
     .log_in_box{
         flex-direction: column;
         gap:10px;
@@ -213,5 +252,21 @@ a{
     /* Adjust animations for smaller screens */
     .animate-fade-in {
         animation: fade-in 2s ease-out 4s forwards; /* Faster animation */
+    }
+}
+
+@media (max-width: 600px) {
+    .college_name {
+        font-size: 20px; /* Smaller font for smaller screens */
+    }
+    .hostel_portal {
+        font-size: 35px; /* Smaller font size */
+    }
+}
+
+@media (max-width: 400px){
+    #container{
+        justify-content: center;
+        gap:5px;
     }
 }
