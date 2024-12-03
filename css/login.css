@@ -146,7 +146,7 @@ a{
 @keyframes fade-in {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Optional: Adds a slight slide effect */
+        transform: translateY(20px); 
     }
     to {
         opacity: 1;
@@ -154,11 +154,10 @@ a{
     }
 }
 
-/* Apply the animation to the login box */
 .animate-fade-in {
-    opacity: 0; /* Ensure it's invisible initially */
+    opacity: 0; 
     animation: fade-in 3s ease-out 0.3s forwards;
-    /* 1s duration, ease-out timing, 3s delay, and forwards to retain final state */
+  
 }
 
 @media (max-width: 1230px) {
@@ -195,19 +194,19 @@ a{
 
 }
 @media (max-width: 1019px) {
-    /* Adjust the login box */
+ 
     .log_in_box {
         width: 90%;
         height: auto;
         padding: 20px;
-        background: rgba(0, 0, 0, 0.6); /* Slightly darker background for smaller screens */
+        background: rgba(0, 0, 0, 0.6); 
     }
 
-    /* Adjust the title */
+   
     .title {
-        flex-direction: column; /* Stack the elements vertically */
-        text-align: center; /* Center-align content */
-        height: auto; /* Adjust height */
+        flex-direction: column; 
+        text-align: center;
+        height: auto; 
     }
 
     .college_logo {
@@ -216,22 +215,21 @@ a{
     }
 
     .college_name {
-        font-size: 32px; /* Smaller font for smaller screens */
+        font-size: 32px;
         margin-top: 10px;
     }
 
-    /* Adjust the portal text */
     .hostel_portal {
-        font-size: 40px; /* Smaller font size */
-        padding: 10px; /* Add some padding */
+        font-size: 40px; 
+        padding: 10px; 
     }
 
-    /* Buttons */
+   
     .administration_box, .student_box {
-        width: 180px; /* Smaller buttons */
+        width: 180px;
         height: 80px;
-        font-size: 18px; /* Smaller font */
-        margin: 10px; /* Adjust spacing */
+        font-size: 18px; 
+        margin: 10px; 
     }
 
     .log_in_box{
@@ -249,18 +247,14 @@ a{
     #login{
         font-size: 32px;
     }
-    /* Adjust animations for smaller screens */
-    .animate-fade-in {
-        animation: fade-in 2s ease-out 4s forwards; /* Faster animation */
-    }
 }
 
 @media (max-width: 600px) {
     .college_name {
-        font-size: 20px; /* Smaller font for smaller screens */
+        font-size: 20px; 
     }
     .hostel_portal {
-        font-size: 35px; /* Smaller font size */
+        font-size: 35px;
     }
 }
 
