@@ -35,6 +35,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     setTimeout(() => {
-        intro[0].style.top = '-100vh';
+        intro[0].style.top = '-110vh';
     }, 2300);
 });
