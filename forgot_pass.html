@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forgot Password</title>
+  <title>Student login</title>
   <link rel="stylesheet" href="css/forgot_pass.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-  <div class="container">
-    <form class="forgot-password-form">
-      <h2>Forgot Password</h2>
-      <div class="forgot_password_text">Enter your email and we will send you the password directly to you</div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <button type="submit">Submit</button>
-      <a href="index.html" class="back_to_login">Back to Login</a>
-    </form>
+  <div class="w-full self-start title flex items-center p-3">
+      <img src="css/src/png college logo.png" alt="college logo" class="ml-3 college_logo">
+    <div class="college_name font-bold  mx-auto" style="color: #31398A;">
+      Indian Institute of Information Technology Design & Manufacturing, Kurnool
+    </div>
+
   </div>
+  <div class="page">
+
+    <div class="black_region ">
+      <a class="relative top-8 left-9" href="index.html"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle cx="18" cy="18" r="18" fill="#D9D9D9" />
+          <path d="M13.825 19L19.425 24.6L18 26L10 18L18 10L19.425 11.4L13.825 17H26V19H13.825Z" fill="#1D1B20" />
+        </svg>
+      </a>
+      <div class="container_small font-extrabold text-3xl w-full top-1/4 left-10 relative  ">
+        Hi ! <br>
+        Enter your email and we will send<br> you the password directly to your <br>mail.
+      </div>
+      <div class="container">
+        <div class="typing-animation" id="typing-text"></div>
+      </div>
+    </div>
+    <div class="blue_region flex items-center">
+      <div class="login_box m-auto my-auto">
+        <div class="header w-full font-semibold flex flex-col justify-center items-center">
+
+          <img src="css/src/png college logo.png" alt="college logo" class="college_logo">
+          <p>Forgot Password</p>
+        </div>
+
+        <form method="post" action="/forget_password" class="login w-full flex flex-col">
+          <div class="container_form">
+            <label class="text-base">Email ID:</label>
+            <div class="flex justify-center">
+              <input type="email" name="forget_email" class="input_field Student_id p-3 w-11/12" id="forget_email"
+                placeholder="12XX00XX@iiitk.ac.in">
+
+              <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.647461" y="0.330811" width="50.4863" height="50.4863" rx="8.07781" fill="#ED4700" />
+                <g clip-path="url(#clip0_245_90)">
+                  <path
+                    d="M16.8027 16.4865H34.9778C35.2456 16.4865 35.5024 16.5928 35.6918 16.7822C35.8811 16.9716 35.9875 17.2284 35.9875 17.4962V33.6518C35.9875 33.9196 35.8811 34.1764 35.6918 34.3658C35.5024 34.5551 35.2456 34.6615 34.9778 34.6615H16.8027C16.5349 34.6615 16.2781 34.5551 16.0887 34.3658C15.8994 34.1764 15.793 33.9196 15.793 33.6518L15.793 17.4962C15.793 17.2284 15.8994 16.9716 16.0887 16.7822C16.2781 16.5928 16.5349 16.4865 16.8027 16.4865ZM33.968 20.7657L25.9629 27.9347L17.8124 20.7435V32.6421H33.968V20.7657ZM18.3284 18.5059L25.9518 25.2327L33.4652 18.5059H18.3284Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_245_90">
+                    <rect width="24.2334" height="24.2334" fill="white" transform="translate(13.7739 13.4573)" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </div>
+          </div>
+
+
+        </form>
+        <button class="w-full h-14 submit_button input_field" type="submit">Submit</button>
+        <a href="student_login.html" class=" text-xl ml-1 container_form forget_password  text-blue-900 underline">
+          back to login</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/forget_pass.js"></script>
 </body>
+
 </html>
