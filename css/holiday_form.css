@@ -39,12 +39,6 @@ header{
     display: flex;
     justify-content: center;
 }
-.college_name{
-    font-size:5.5vh ;
-    text-align: center;
-    width: 80%;
-    min-width:800px;
-}
 .navbar_box{
     width: 100vw;
     height:6vh;
