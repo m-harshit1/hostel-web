@@ -2,6 +2,21 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+.title{
+    background-color: #D3D3D3;
+}
+
+.college_logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.college_name {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+}
+
 
 a{
     text-decoration: none;
@@ -42,7 +57,6 @@ header{
     display: flex;
     flex-direction: row;
     height: 80%;
-    padding-top:1vh;
     gap: 4vw;
 }
 .items{
@@ -79,9 +93,11 @@ header{
     text-align:left;
     border-radius: 5px;
 }
-
+title{
+    background-color: #D3D3D3;
+  }
 .bottom_nav_line{
-    height: .3px;
+    height: 4px;
     margin-left: 1.5vw;
     width:97vw;
 }
@@ -148,4 +164,17 @@ label{
     height: 5vh;
     width: 7vw;
     font-size: 1.5vw;
+}
+
+@media(max-width : 1050px){
+    .college_name {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width : 500px){
+    .college_name {
+        font-size: 20px; 
+    }
 }
