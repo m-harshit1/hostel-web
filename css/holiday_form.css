@@ -34,9 +34,6 @@ header{
     display: flex;
     gap: 4%;
 }
-.college_logo{
-    height: 13vh;
-}
 .college_name_box{
     width:100vw;
     display: flex;
