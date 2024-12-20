@@ -1,87 +1,57 @@
+.dropdown-menu{
+    width: 350px;
+}
 *{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-}
+  }
+  .dropdown-item:hover{
+    background-color: #ED4700;
+    color:white;
+  }
+ 
+  .dropdown-item:hover span{
+    color: white;
+  }
 
-a{
+  .dropdown-item:hover svg path{
+    stroke: white;
+  }
+  .anchor{
     text-decoration: none;
-    color: black;
-}
-header{
-    position: fixed;
-    z-index: 2;
-}
-
-.title_box{
-    width: 100vw;
-    height: 13vh;
-    background-color:#D8E2DC;
-    display: flex;
-    gap: 4%;
-}
-.college_logo{
-    height: 13vh;
-}
-.college_name_box{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-}
-.college_name{
-    font-size:5.5vh ;
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
-    width: 80%;
-    min-width:800px;
-}
-.navbar_box{
-    width: 100vw;
-    height:6vh;
+    
+  }
+  .anchor:hover{
+    background-color: #ED4700;
+    color: white;
+    text-decoration:none;
+  }
+
+  .btn2{
     background-color: white;
-}
-.nav_items{
-    display: flex;
-    flex-direction: row;
-    height: 80%;
-    padding-top:1vh;
-    gap: 4vw;
-}
-.items{
-    padding-top: 1.5vh;
-    text-align: center;
-    font-size: 22px;
-}
+    border:none;
+  }
+  .btn2:hover{
+    background-color: white;
+  }
+  .btn2:active{
+    border: none;
+  }
 
-#home{
-    padding-left: 2.5vw;
-}
-
-.forms_list{
-    display: none;
-    position: absolute;
-    min-height: 15vh;
-    z-index: 5;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color:#cbded2;
-    border-radius: 10px;
-}
-#forms:hover .forms_list{
-    display:flex;
-    flex-direction: column;
-    align-items:start;
-    gap: 1.5vh;
-}
-#forms:hover #gate_pass{
-    margin-top: 10%;
-}
-.hover_pass:hover{
-    background-color:#e5fdef ;
-    width:100%;
-    text-align:left;
-    border-radius: 5px;
-}
-
-.bottom_nav_line{
-    height: .3px;
-    margin-left: 1.5vw;
-    width:97vw;
-}
+  .btn1{
+    background-color: white;
+    border:none;
+    color: black;
+  }
+  .btn1:hover{
+    background-color: #ED4700;
+  }
+  .btn1:active{
+    border: none;
+  }

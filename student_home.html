@@ -1,44 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Student home page</title>
+    <link rel="stylesheet" href="css/forgot_pass.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/student_home.css">
 </head>
-<body>
-    <header>
-        <div class="title_box">
-            <img src="css/src/png college logo.png" alt="college logo" class="college_logo">
-            <div class="college_name">
-                Indian Institute of Information Technology Design & Manufacturing, Kurnool
-            </div>
-        </div>
-        <div class="navbar_box">
-            <div class="nav_items">
-                <div id="home" class="items">
-                    <a href="student_home.html">Home</a> 
-                </div>
-                <div id="forms" class="items">
-                    Forms
-                    <div class="forms_list">
-                        <a href="gate_pass.html" class="hover_pass" id="gate_pass">Gate pass</a>
-                        <a href="holiday_form.html" class="hover_pass">Holiday form</a>
-                        <a href="admission_form.html" class="hover_pass">Admission form</a>
-                    </div> 
-                </div>
-                <div id="attendence" class="items">
-                    <a href="attendence_page.html">Attendance</a>
-                </div>
-                <div id="complain" class="items">
-                    <a href="complain_page.html">Complain</a>
-                </div>
-            </div>
-            <div class="profile_box">
 
-            </div>
+<body>
+    <div class="w-full self-start title flex items-center p-3">
+        <img src="css/src/png college logo.png" alt="college logo" class="ml-3 college_logo">
+        <div class="college_name font-bold  mx-auto" style="color: #31398A;">
+            Indian Institute of Information Technology Design & Manufacturing, Kurnool
         </div>
-        <hr class="bottom_nav_line" color="black">
-    </header>
+    </div>
+    <nav class="flex w-full h-16 justify-between items-center ">
+        <div class="ml-16 flex">
+            <a class="anchor text-2xl bg-green-300" href="">Home</a>
+            
+                <button class="anchor btn1 btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Forms
+                </button>
+                <div class="dropdown-menu w-72 mt-3 p-1 bg-slate-50" aria-labelledby="dropdownMenuButton">
+                    <a class="text-l mt-2 font-semibold dropdown-item" href="#">Gate Pass</a>
+                    <a class="text-l mt-2 font-semibold dropdown-item" href="#">Holiday Form</a>
+                    <a class="text-l mt-2 font-semibold dropdown-item" href="#">Room Change Form</a>
+                </div>
+        <a class="anchor text-2xl " href="">Attendance</a>
+            <a class=" anchor text-2xl " href="">Complain</a>
+        </div>
+        <div class=" btn-group mr-12">
+            <button type="button" class="btn btn2 btn-secondary " data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <svg class="w-full mr-7 profile" height="35" viewBox="0 0 35 35" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="35" height="35" />
+                    <path
+                        d="M10.005 24.63C11.11 23.785 12.345 23.1187 13.71 22.6312C15.075 22.1437 16.505 21.9 18 21.9C19.495 21.9 20.925 22.1437 22.29 22.6312C23.655 23.1187 24.89 23.785 25.995 24.63C26.7533 23.7417 27.3438 22.7342 27.7663 21.6075C28.1887 20.4808 28.4 19.2783 28.4 18C28.4 15.1183 27.3871 12.6646 25.3612 10.6388C23.3354 8.61292 20.8817 7.6 18 7.6C15.1183 7.6 12.6646 8.61292 10.6388 10.6388C8.61292 12.6646 7.6 15.1183 7.6 18C7.6 19.2783 7.81125 20.4808 8.23375 21.6075C8.65625 22.7342 9.24667 23.7417 10.005 24.63ZM18 19.3C16.7217 19.3 15.6438 18.8612 14.7662 17.9837C13.8888 17.1062 13.45 16.0283 13.45 14.75C13.45 13.4717 13.8888 12.3938 14.7662 11.5163C15.6438 10.6388 16.7217 10.2 18 10.2C19.2783 10.2 20.3562 10.6388 21.2337 11.5163C22.1112 12.3938 22.55 13.4717 22.55 14.75C22.55 16.0283 22.1112 17.1062 21.2337 17.9837C20.3562 18.8612 19.2783 19.3 18 19.3ZM18 31C16.2017 31 14.5117 30.6587 12.93 29.9762C11.3483 29.2937 9.9725 28.3675 8.8025 27.1975C7.6325 26.0275 6.70625 24.6517 6.02375 23.07C5.34125 21.4883 5 19.7983 5 18C5 16.2017 5.34125 14.5117 6.02375 12.93C6.70625 11.3483 7.6325 9.9725 8.8025 8.8025C9.9725 7.6325 11.3483 6.70625 12.93 6.02375C14.5117 5.34125 16.2017 5 18 5C19.7983 5 21.4883 5.34125 23.07 6.02375C24.6517 6.70625 26.0275 7.6325 27.1975 8.8025C28.3675 9.9725 29.2937 11.3483 29.9762 12.93C30.6587 14.5117 31 16.2017 31 18C31 19.7983 30.6587 21.4883 29.9762 23.07C29.2937 24.6517 28.3675 26.0275 27.1975 27.1975C26.0275 28.3675 24.6517 29.2937 23.07 29.9762C21.4883 30.6587 19.7983 31 18 31Z"
+                        fill="#1D1B20" />
+                </svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right mt-3 h-auto rounded-md p-2">
+                <div class="dropdown_menu_profilecontainer flex gap-5 items-center justify-left">
+                    <img width="100px" class="rounded-full User_Profile_Pic ml-2" src="./css/src/png college logo.png"
+                        alt="Userprofile_pic">
+                    <span class="UserName text-2xl font-semibold">Arnav Sharda</span>
+                </div>
+                <div class="dropdown_menu_button mt-7">
+                    <a href="#" class="rounded-md p-3 dropdown-item flex justify-start items-center gap-4"><svg
+                            width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.5 2.76777H2.66667C2.22464 2.76777 1.80072 2.94336 1.48816 3.25592C1.17559 3.56848 1 3.99241 1 4.43443V16.1011C1 16.5431 1.17559 16.9671 1.48816 17.2796C1.80072 17.5922 2.22464 17.7678 2.66667 17.7678H14.3333C14.7754 17.7678 15.1993 17.5922 15.5118 17.2796C15.8244 16.9671 16 16.5431 16 16.1011V10.2678M14.75 1.51777C15.0815 1.18625 15.5312 1 16 1C16.4688 1 16.9185 1.18625 17.25 1.51777C17.5815 1.84929 17.7678 2.29893 17.7678 2.76777C17.7678 3.23661 17.5815 3.68625 17.25 4.01777L9.33333 11.9344L6 12.7678L6.83333 9.43443L14.75 1.51777Z"
+                                stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="font-semibold">
+                            EDIT YOUR PROFILE</a>
+                    </span>
+                    <a href="#" class="mt-1 p-3 rounded-md dropdown-item flex justify-start items-center gap-4">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.59 17.77H2.86333C2.36915 17.77 1.8952 17.5737 1.54576 17.2242C1.19631 16.8748 1 16.4009 1 15.9067V2.86333C1 2.36915 1.19631 1.8952 1.54576 1.54576C1.8952 1.19631 2.36915 1 2.86333 1H6.59M13.1117 14.0433L17.77 9.385M17.77 9.385L13.1117 4.72667M17.77 9.385H6.59"
+                                stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="font-semibold">Sign Out</span>
+                    </a>
+                </div>
+            </div>
+            </div>
+
+    </nav>
+    <center>
+        <hr class="w-11/12 " style="border: none; border-top: 1px solid black;">
+    </center>
+
+<section class="imp information"> </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
