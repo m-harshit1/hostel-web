@@ -24,8 +24,7 @@
     padding-bottom: 5px;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
-    
+    text-align: center;   
   }
   .anchor:hover{
     background-color: #ED4700;
@@ -55,3 +54,83 @@
   .btn1:active{
     border: none;
   }
+  .left_pannel{
+    background-color: #AAD7BD;
+    border-radius: 8px;
+  }
+  .right_pannel{
+    background-color: #ED470033;
+    border-radius: 8px;
+  }
+  
+.scroll-container {
+    height: 550px;
+    overflow-y: scroll
+}
+.news{
+    height: 50px;
+    overflow: clip;
+}
+    
+@media (max-width: 870px){
+.anchor{
+    font-size: small;
+    width: 90px;
+}
+.left_pannel{
+    width: 90%;
+    height: 50%;
+}
+.right_pannel{
+    width: 90%;
+    height: 50%;
+}
+.imp_information{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media(max-width : 400px){
+    .anchor{
+        font-size: 10px;
+        width: 50px;
+        font-weight: 500;
+    }
+    .btn3{
+        width: 50px;
+        margin-right: 5px;
+    }
+    .container1{
+        margin-left: 5px;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    .profile{
+        width: 150px;
+    }
+    .forms{
+        width: 200px;
+    }
+    .dropdown_menu_profilecontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .User_Profile_Pic{
+        width: 50px;
+    }
+    .UserName{
+        font-size: 15px;
+    }
+    .edit{
+        font-size: 10px;
+    }
+    .container_actions{
+        margin-top: 5px;
+    }
+    .content{
+        padding: 4px;
+    }
+}
+
