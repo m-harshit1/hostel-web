@@ -91,7 +91,7 @@
 }
 
 
-@media (max-width: 870px){
+@media (max-width: 970px){
 .anchor{
     font-size: small;
     width: 90px;
@@ -170,5 +170,6 @@
       width: 200px;
       height: auto;
     }
+
 }
 
