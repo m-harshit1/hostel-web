@@ -64,7 +64,7 @@
   }
   
 .scroll-container {
-    height: 550px;
+    height: 70%;
     overflow-y: scroll
 }
 .news{
@@ -91,7 +91,7 @@
 }
 }
 
-@media(max-width : 400px){
+@media(max-width : 450px){
     .anchor{
         font-size: 10px;
         width: 50px;
