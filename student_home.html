@@ -28,12 +28,14 @@
                 Forms
             </button>
             <div class="dropdown-menu forms sm:w-72 mt-3 p-1 bg-slate-50" aria-labelledby="dropdownMenuButton">
-                <a class="text-l mt-2 font-semibold dropdown-item" href="#">Gate Pass</a>
-                <a class="text-l mt-2 font-semibold dropdown-item" href="#">Holiday Form</a>
+                <a class="text-l mt-2 font-semibold dropdown-item" href="./gate_pass.html">Gate Pass</a>
+                <a class="text-l mt-2 font-semibold dropdown-item" href="./holiday_form.html">Holiday Form</a>
                 <a class="text-l mt-2 font-semibold dropdown-item" href="#">Room Change Form</a>
+                <!-- room change wala jab banega tab uska link dal dena backend wale -->
             </div>
             <a class="anchor " href="">Attendance</a>
             <a class=" anchor" href="">Complain</a>
+            <a class=" anchor" href="#contact">Contact</a>
         </div>
         <div class=" btn-group btn3 sm:mr-12">
             <button type="button" class="btn btn2 btn-secondary " data-toggle="dropdown" aria-haspopup="true"
@@ -80,8 +82,8 @@
         <hr class="w-11/12 " style="border: none; border-top: 1px solid black;">
     </center>
 
-    <section
-        class="imp_information h-screen w-full flex lg:flex-row sm:flex-col justify-center p-9 gap-3 sm:items-center lg:items-start">
+    <section 
+        class="imp_information  w-full flex lg:flex-row sm:flex-col justify-center p-9 gap-3 sm:items-center lg:items-start">
         <div class="left_pannel lg:w-3/6 sm:w-5/6 lg:h-3/4 sm:h-2/4">
             <div class="news_heading flex justify-center items-center w-full gap-2 mt-4">
                 <svg class="svg_imp_news" width="50" height="42" viewBox="0 0 50 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +94,7 @@
                 <span class="xl:text-3xl lg:text-2xl md:text-xl  font-bold">NEWS AND ANNOUNCEMENTS </span>
             </div>
 
-            <!-- template for making the page backend person must add the for loops below and href also from database only in oprder to show the current news  -->
+            <!-- template for making the page backend person must add the for loops below and href also from database only in order to show the current news  -->
 
             <div id="scroll-container-imp-news" class=" scroll-container w-full flex flex-col items-center gap-2 p-4 rounded-md">
 
@@ -185,7 +187,38 @@
             </div>
         </div>
     </section>
+<section id="contact" class="hostel gap-7 flex flex-col justify-around items-center "> 
+    <span class="hostel_name text-3xl font-semibold ">HOSTEL CONTACT</span>
+    <div class="tempelate_container flex justify-evenly w-full items-center">
+        <div class="hostel_container rounded-xl  p-2 flex flex-col items-center justify-evenly">
+            <span class="hostel_name lg:text-2xl font-bold">Kalam hostel </span>
+            <img class="image" src="./css/src/image.png" alt="hostel">
+            <span class="contact text-xl font-medium"> +91 95814 37084</span>
+            <span class="contact_id text-xl font-medium">hostel@iiitk.ac.in</span>
+        </div>   
 
+          <div class="hostel_container rounded-xl  p-2 flex flex-col items-center justify-evenly">
+            <span class="hostel_name lg:text-2xl font-bold">Kalam hostel </span>
+            <img class="image" src="./css/src/image.png" alt="hostel">
+            <span class="contact text-xl font-medium"> +91 95814 37084</span>
+            <span class="contact_id text-xl font-medium">hostel@iiitk.ac.in</span>
+        </div>   
+
+        <div class="hostel_container rounded-xl  p-2 flex flex-col items-center justify-evenly">
+            <span class="hostel_name lg:text-2xl font-bold">Kalam hostel </span>
+            <img class="image" src="./css/src/image.png" alt="hostel">
+            <span class="contact text-xl font-medium"> +91 95814 37084</span>
+            <span class="contact_id text-xl font-medium">hostel@iiitk.ac.in</span>
+        </div>   
+
+        <div class="hostel_container rounded-xl  p-2 flex flex-col items-center justify-evenly">
+            <span class="hostel_name lg:text-2xl font-bold">Kalam hostel </span>
+            <img class="image" src="./css/src/image.png" alt="hostel">
+            <span class="contact text-xl font-medium"> +91 95814 37084</span>
+            <span class="contact_id text-xl font-medium">hostel@iiitk.ac.in</span>
+        </div>   
+    </div>
+</section>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

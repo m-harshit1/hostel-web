@@ -9,7 +9,9 @@
     background-color: #ED4700;
     color:white;
   }
- 
+ .imp_information {
+  height: 85vh;
+ }
   .dropdown-item:hover span{
     color: white;
   }
@@ -71,7 +73,24 @@
     height: 50px;
     overflow: clip;
 }
-    
+
+.hostel{
+  height: 50vh;
+}
+  
+.hostel_container{
+  width: 313px;
+  height: 350px;
+  background-color: #AAD7BD;
+  border: 1px solid black;
+}
+ 
+.image{
+  height: 238px;
+  width: 200px;
+}
+
+
 @media (max-width: 870px){
 .anchor{
     font-size: small;
@@ -89,9 +108,14 @@
     flex-direction: column;
     align-items: center;
 }
+.tempelate_container{
+  flex-direction: column;
+  gap:15px;
+}
 }
 
-@media(max-width : 450px){
+
+@media(max-width : 512px){
     .anchor{
         font-size: 10px;
         width: 50px;
@@ -134,6 +158,17 @@
     }
     .svg_imp_news{
         width: 25px;
+    }
+
+    .hostel_container{
+      width: 70%;
+    }
+    .hostel_name{
+       font-size: 22px;
+    }
+    .image{
+      width: 200px;
+      height: auto;
     }
 }
 
