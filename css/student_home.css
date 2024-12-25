@@ -116,21 +116,6 @@
 
 
 @media(max-width : 512px){
-    .anchor{
-        font-size: 10px;
-        width: 50px;
-        font-weight: 500;
-    }
-    .btn3{
-        width: 50px;
-        margin-right: 5px;
-    }
-    .container1{
-        margin-left: 5px;
-    }
-    nav{
-        justify-content: space-around;
-    }
     .profile{
         width: 150px;
     }
@@ -172,4 +157,3 @@
     }
 
 }
-
