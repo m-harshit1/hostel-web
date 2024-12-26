@@ -1,87 +1,159 @@
+.dropdown-menu{
+    width: 350px;
+}
 *{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-}
+  }
+  .dropdown-item:hover{
+    background-color: #ED4700;
+    color:white;
+  }
+ .imp_information {
+  height: 85vh;
+ }
+  .dropdown-item:hover span{
+    color: white;
+  }
 
-a{
+  .dropdown-item:hover svg path{
+    stroke: white;
+  }
+  .anchor{
     text-decoration: none;
-    color: black;
-}
-header{
-    position: fixed;
-    z-index: 2;
-}
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;   
+  }
+  .anchor:hover{
+    background-color: #ED4700;
+    color: white;
+    text-decoration:none;
+  }
 
-.title_box{
-    width: 100vw;
-    height: 13vh;
-    background-color:#D8E2DC;
-    display: flex;
-    gap: 4%;
-}
-.college_logo{
-    height: 13vh;
-}
-.college_name_box{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-}
-.college_name{
-    font-size:5.5vh ;
-    text-align: center;
-    width: 80%;
-    min-width:800px;
-}
-.navbar_box{
-    width: 100vw;
-    height:6vh;
+  .btn2{
     background-color: white;
-}
-.nav_items{
-    display: flex;
-    flex-direction: row;
+    border:none;
+  }
+  .btn2:hover{
+    background-color: white;
+  }
+  .btn2:active{
+    border: none;
+  }
+
+  .btn1{
+    background-color: white;
+    border:none;
+    color: black;
+  }
+  .btn1:hover{
+    background-color: #ED4700;
+  }
+  .btn1:active{
+    border: none;
+  }
+  .left_pannel{
+    background-color: #AAD7BD;
+    border-radius: 8px;
+  }
+  .right_pannel{
+    background-color: #ED470033;
+    border-radius: 8px;
+  }
+  
+.scroll-container {
     height: 80%;
-    padding-top:1vh;
-    gap: 4vw;
+    overflow-y: scroll
 }
-.items{
-    padding-top: 1.5vh;
-    text-align: center;
-    font-size: 22px;
+.news{
+    height: 50px;
+    overflow: clip;
 }
 
-#home{
-    padding-left: 2.5vw;
+.hostel{
+  height: 50vh;
+}
+  
+.hostel_container{
+  width: 313px;
+  height: 350px;
+  background-color: #AAD7BD;
+  border: 1px solid black;
+}
+ 
+.image{
+  height: 238px;
+  width: 200px;
 }
 
-.forms_list{
-    display: none;
-    position: absolute;
-    min-height: 15vh;
-    z-index: 5;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color:#cbded2;
-    border-radius: 10px;
+
+@media (max-width: 970px){
+.anchor{
+    font-size: small;
+    width: 90px;
 }
-#forms:hover .forms_list{
-    display:flex;
+.left_pannel{
+    width: 90%;
+    height: 50%;
+}
+.right_pannel{
+    width: 90%;
+    height: 50%;
+}
+.imp_information{
     flex-direction: column;
-    align-items:start;
-    gap: 1.5vh;
+    align-items: center;
 }
-#forms:hover #gate_pass{
-    margin-top: 10%;
+.tempelate_container{
+  flex-direction: column;
+  gap:15px;
 }
-.hover_pass:hover{
-    background-color:#e5fdef ;
-    width:100%;
-    text-align:left;
-    border-radius: 5px;
 }
 
-.bottom_nav_line{
-    height: .3px;
-    margin-left: 1.5vw;
-    width:97vw;
+
+@media(max-width : 512px){
+    .profile{
+        width: 150px;
+    }
+    .forms{
+        width: 200px;
+    }
+    .dropdown_menu_profilecontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .User_Profile_Pic{
+        width: 50px;
+    }
+    .UserName{
+        font-size: 15px;
+    }
+    .edit{
+        font-size: 10px;
+    }
+    .container_actions{
+        margin-top: 5px;
+    }
+    .content{
+        padding: 4px;
+    }
+    .svg_imp_news{
+        width: 25px;
+    }
+
+    .hostel_container{
+      width: 70%;
+    }
+    .hostel_name{
+       font-size: 22px;
+    }
+    .image{
+      width: 200px;
+      height: auto;
+    }
+
 }
